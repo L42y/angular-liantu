@@ -1,0 +1,25 @@
+{
+  "name": "angular-liantu",
+  "version": "0.1.0",
+  "authors": [
+    "L42y <423300@gmail.com>"
+  ],
+  "description": "liantu.com (QR code generating) as an AngularJS component",
+  "main": "angular-liantu.js",
+  "keywords": [
+    "angular",
+    "liantu"
+  ],
+  "license": "WTFPL",
+  "homepage": "https://github.com/L42y/angular-liantu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "get-device-pixel-ratio": "~1.0.0"
+  }
+}
