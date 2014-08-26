@@ -24,7 +24,7 @@ angular.module('l42y.liantu', []).directive('liantu', function (
           }
         });
 
-        var src = '//qr.liantu.com/api.php?text=' + text +
+        var src = 'http://qr.liantu.com/api.php?text=' + text +
               sizeStr + params;
         $attrs.$set('src', src);
       });
